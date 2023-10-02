@@ -7,6 +7,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('This Is App',
+
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 32
+        ),),
+      ),
 
     );
   }
